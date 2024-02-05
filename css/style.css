@@ -271,7 +271,8 @@ button {
 }
 
 .sidepanel a:hover {
-     color: #0f98f8;
+     /* color: #0f98f8; */
+     color: #0fe1f8;
 }
 
 .sidepanel .closebtn {
@@ -291,10 +292,12 @@ button {
 }
 
 
+
 /*--      end sidebar  navigation--*/
 
 .logo {
      padding-top: 12px;
+     text-align: left;
 }
 
 ul.conat_info li {
@@ -344,6 +347,7 @@ ul.conat_info li a:hover {
      float: right;
      max-width: 430px;
      width: 100%;
+     text-align: right;
 }
 
 .text-bg h1 {
@@ -489,7 +493,6 @@ ul.conat_info li a:hover {
 .read_more::before {
      position: absolute;
      content: "";
-     border-right: #262626 solid 80px;
      width: 200px;
      height: 1px;
      line-height: 1px;
@@ -575,9 +578,9 @@ ul.conat_info li a:hover {
      font-weight: 500;
 }
 
-.service_box h4:hover {
+/* .service_box h4:hover {
      color: #0f98f8;
-}
+} */
 
 .blu_colo i {
      background-color: #0f98f8
@@ -804,9 +807,6 @@ ul.conat_info li a:hover {
      top: 52%;
 }
 
-.testimonial .read_more::before {
-     border-right: #fff solid 80px;
-}
 
 .testimonial .read_more {
      position: relative;
@@ -1063,5 +1063,33 @@ ul.location_icon li a:hover {
 }
 
 
+body{
+     text-align: right;
+}
+
+
+.logo_text{
+     color: #0f98f8;
+     font-size: 90px;
+     font-weight: bolder;
+     line-height: 95px;
+     text-wrap: nowrap;
+     padding-top: 5px;
+}
+.transfot{
+     direction:rtl ;
+     text-align: right;
+}
+.text-bg{
+     direction: rtl;
+}
+
+.read_more:hover{
+     color: #0f98f8 !important;
+}
+#mySidepanel{
+     text-align: right;
+     direction: rtl;
+}
 /** end footer **/
 
