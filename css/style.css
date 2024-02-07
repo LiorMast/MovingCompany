@@ -31,6 +31,7 @@
 
 * {
      box-sizing: border-box !important;
+     
 }
 
 html {
@@ -854,6 +855,22 @@ ul.conat_info li a:hover {
      padding: 10px 0 70px 0;
 }
 
+.management {
+     color: #202121;
+     font-size: 17px;
+     line-height: 30px;
+}
+
+.management div{
+     width: fit-content;
+     padding-left: 25px;
+}
+
+.management span{
+     
+     font-weight: bold;
+}
+
 
 /** end choose section **/
 
@@ -929,6 +946,17 @@ ul.conat_info li a:hover {
 #request *::placeholder {
      color: #959596;
      opacity: 1;
+}
+
+#request{
+     float: right;
+}
+
+.management{
+     text-align: right;
+     direction: rtl;
+     display: flex;
+     justify-content: flex-start;
 }
 
 .co_tru {
