@@ -568,6 +568,8 @@ ul.conat_info li a:hover {
 .service_box i img {
      text-align: center;
      padding-top: 33%;
+     height: 114.73px;
+     width: 66px;
 }
 
 .service_box h4 {
@@ -1091,5 +1093,13 @@ body{
      text-align: right;
      direction: rtl;
 }
+.service_main h4{
+     direction: rtl;
+}
+footer{
+     direction: rtl;
+     text-align: right;
+}
+
 /** end footer **/
 
