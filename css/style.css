@@ -744,9 +744,11 @@ ul.conat_info li a:hover {
      line-height: 36px;
      font-weight: 600;
      padding-top: 26px;
-     text-align: left;
+     display: table-cell; 
      padding-left: 20px;
-     display: table-cell;
+     text-align: right;
+     float: right;
+     direction: rtl;
 }
 
 .testimonial_box p {
@@ -755,8 +757,14 @@ ul.conat_info li a:hover {
      line-height: 32px;
      padding-top: 30px;
      display: inline-block;
-     text-align: left;
      font-weight: 400;
+     text-align: right;
+     direction: rtl;
+}
+
+.testimonial_box figure {
+     margin: 0;
+     float: right;
 }
 
 .kisu {
@@ -766,11 +774,6 @@ ul.conat_info li a:hover {
 .testimonial_Carousel .carousel-caption {
      position: inherit;
      padding: 0;
-}
-
-.testimonial_box figure {
-     margin: 0;
-     float: left;
 }
 
 #myCarousel .carousel-indicators {
