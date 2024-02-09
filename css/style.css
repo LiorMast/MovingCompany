@@ -889,8 +889,12 @@ ul.conat_info li a:hover {
      padding-top: 90px;
 }
 
+.contact img{
+     float: left;
+}
+
 .contact .titlepage {
-     text-align: left;
+     text-align: right;
      padding-bottom: 60px;
 }
 
@@ -957,6 +961,7 @@ ul.conat_info li a:hover {
 
 #request{
      float: right;
+     
 }
 
 .management{
