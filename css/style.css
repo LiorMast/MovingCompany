@@ -639,6 +639,10 @@ ul.conat_info li a:hover {
      padding: 35px 0;
 }
 
+.vehicles_truck img{
+     height: 200px;
+}
+
 .vehicles_truck:hover {
      background-color: #fff;
      transition: ease-in all 0.5s;
@@ -745,7 +749,7 @@ ul.conat_info li a:hover {
      font-weight: 600;
      padding-top: 26px;
      display: table-cell; 
-     padding-left: 20px;
+     padding-right: 20px;
      text-align: right;
      float: right;
      direction: rtl;
