@@ -1140,6 +1140,13 @@ footer{
      direction: rtl;
      text-align: right;
 }
-
+.sub_btn {
+     position: relative;
+     z-index: 1;
+}
+.costumer_img{
+     height: 124px;
+     width: 129px;
+}
 /** end footer **/
 
